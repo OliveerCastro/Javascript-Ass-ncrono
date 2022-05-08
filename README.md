@@ -2,6 +2,10 @@
 
 ## Atividade API: catAPI
 
+Instituição: [Digital Innovation One](https://www.dio.me/)
+
+Profª.: [Stephany Nusch](https://github.com/stebsnusch)
+
 ## Arquivos
 
 -[Index](/catAPI/index.html)
