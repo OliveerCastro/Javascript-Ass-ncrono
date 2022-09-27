@@ -7,7 +7,7 @@
 
   Promises:
   Obj. de processamento assíncrono.
-  Iniciamente seu valor é desconhecido.
+  Inicialmente seu valor é desconhecido.
   Ela pode ser resolvida ou rejeitada.
 
   Pode ter 3 estados:
@@ -31,14 +31,19 @@ const resolved = await myPromises
 
   return resolved;
 }
-/*funções assíncronas precisam das
-palavras chaves Async e await, e também
-retornam Promises*/ 
+/*
+  Funções assíncronas precisam das
+  palavras chaves Async e await, e também
+  retornam Promises
+ */ 
 
 
-/*Ultilizando try...catch*/
-/*let result;
+/*
+  Ultilizando try...catch
+  let result; 
+*/
 
+/*
 try{
   result = await myPromises
       .then((result) => result + ' passando pelo then')
